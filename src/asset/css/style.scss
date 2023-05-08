@@ -1,0 +1,131 @@
+$primary:#A76286;
+$secondary:#000000;
+$light:#FCA7A5;
+$warning:#5A3E79;
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+    "first":#756504,
+    "second":#ffffff,
+    "$light" : #FCA7A5,
+    "warning" : #5A3E79,
+);
+$custom-theme-colors:map-merge($custom-theme-colors, $theme-colors);
+$first:#756504;
+$second:#ffffff;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+.all{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#heading{
+    color: #ffc107
+}
+#section3{
+    background-color: #ffc107;
+}
+#headcol{
+    color:#ffc107
+}
+.line{
+    
+ margin:auto;
+ margin-bottom:5px;
+ height:1px;
+ width:30%;
+ border-top:2px solid #ffc107;
+}
+// @media(max-width:500px){
+//     .medi{
+//         max-width: 100px;
+//     }
+// }
+
+#headd{
+    color: #ffc107;
+}
+
+#specify{
+    background-color: #ffc107;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 8px 0;
+}
+#para{
+    background-color: #dfd7d7ab;
+    word-spacing: 3px;
+}
+#cont{
+    background-color: #ffc107;
+}
+.col2{
+    color: #ffc107;
+}
+#image{
+    background-image:url('../images/ocean.gif.jpg');
+    background-repeat:no-repeat x;
+    // height:650px; 
+    // background-position: center center;
+}
+#font{
+    font-size: 3rem;
+}
+#backg{
+    background-color: #ffc107;
+}
+
+#dot1{
+    list-style-type: none;
+    padding: 0;
+}
+#dot{
+    list-style-type: none;
+    margin-left: 10px;
+}
+.lin{
+    margin:auto;
+ margin-bottom:5px;
+ height:1px;
+ width:90%;
+ border-top:2px solid black
+}
+// .custover:hover{
+//     opacity: 0.5;
+// };
+
+#test{
+    .custover{
+        &:hover{
+            .image{
+                opacity:0.6;
+            }  
+    .custover1{
+        text-align:center;
+        opacity: 1 ;
+    }
+    }
+}
+.custover1{
+    opacity:0;
+}
+.btn-sm{
+    border-radius: 13px;
+    background-color: #ffc107;
+    
+}
+}
+
+#cust:hover{
+    opacity: 0.5;
+}
+
+.over1:hover{
+    opacity:1;  
+}
+.over1{
+    opacity: 0;
+}

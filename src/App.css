@@ -1,0 +1,316 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#common{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub_heder{
+   font-size: 38px;
+   color: #f2a008;
+   line-height: 0.8;
+}
+.sub_span{
+  font-size: 18px;
+}
+.sub_para{
+  font-size: 22px;
+  /* padding-top: 5px; */
+}
+.line{
+  border-top: 3px solid  #f2a008;
+  width:90%;
+  /* margin: auto; */
+}
+.sect_para{
+  font-size: 20px;
+  text-align: justify;
+}
+.btnsect2{
+  background-color:#f2a008;
+  padding: 15px;
+  border-radius: 19px;
+  border: #f2a008;
+}
+
+.sect3{
+  background-color: #f2a008;
+}
+.sect3btn{
+  color:#f2a008;
+  background-color: white;
+  /* padding: 10px; */
+  border-radius: 16px;
+  border: white;
+  padding: 5px 30px;
+  margin: 4px;
+}
+#sect3inpt{
+  background-color: #f2a008;
+}
+.sect4span{
+  color: #f2a008;
+}
+.line2{
+  border-top: 3px solid  #f2a008;
+  width:120px;
+  margin: auto;
+}
+.sect4par{
+  font-size: 22px;
+}
+.sect4par2{
+  font-size: 20px;
+  margin-top: 40px;
+}
+.sect7h3{
+  color: #f2a008;
+}
+.sect7par{
+  font-size: 21px;
+}
+.sect8h3{
+  background-color: #f2a008;
+  color: white;
+  margin-bottom: 0;
+}
+.sect8par{
+  background-color: #eae6e6;
+  text-align: justify;
+}
+
+.sect9{
+  background-color: #f2a008;
+}
+.sect9btn{
+  background-color: white;
+  color: #f2a008;
+  border-radius: 10px;
+  border: #f2a008;
+  padding: 6px 10px;
+}
+.sect9par{
+  font-size: 22px;
+}
+.linesect10{
+  border-top: 3px solid  #f2a008;
+  width: 50%;
+  margin: auto;
+}
+.sect10span{
+  color: #f2a008;
+}
+.sect11div {
+  margin-top: 45px;
+ font-size: 20px;
+}
+.sect12par{
+  background-color: #eae6e6;
+  text-align: justify;
+  word-spacing: 10px;
+}
+
+#section-last{
+  
+    background-image: url('./asset/images/ocean.jpg');
+    background-repeat: no-repeat;
+  
+}
+
+.linefoot{
+  margin-top: 15px;
+  border:2px solid white;
+}
+/* #hovertext>h5:hover{
+  color: #f2a008;
+} */
+.custom:hover{
+  color: #f2a008 !important;
+}
+
+/* About us */
+.about2{
+  color: #f2a008;
+}
+.lineabout{
+  border: #f2a008 solid 1.5px;
+  width: 47%;
+}
+.asect3{
+  font-size: 21px;
+  text-align: justify;
+}
+.lineabout3{
+  border: #f2a008 solid 1.5px;
+  width: 20%;
+}
+.lineabout31{
+  border: #f2a008 solid 1.5px;
+  width: 7%;
+}
+.vision{
+  border: #f2a008 solid 3px;
+  border-radius: 20px;
+}
+
+/* Testimonials */
+.testsect1{
+  color: #f2a008;
+  font-weight: 400;
+}
+.linetest{
+  border: #f2a008 solid 1.5px;
+  width: 47%;
+}
+/* Contact US */
+.conhead{
+  color: white;
+  background-color: #f2a008;
+  padding: 12px 0px;
+}
+.imagecont{
+  padding: 0.5rem;
+  background-color: #f2a008;
+  max-width: 100%;
+  height: auto;
+  border: #f2a008 1px solid;
+  border-radius: 10px;
+}
+.linecont{
+  border: #6c6d6f 1px solid;
+}
+.intro{
+  font-size: 22px;
+  text-align: justify;
+}
+.linec{
+  border: #f2a008 solid 1.5px;
+  width: 45%;
+}
+/* Acupuncture */
+.aculine{
+  border: #f2a008 solid 1.5px;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 14px;
+}
+.acup{
+  font-size: 21px;
+  /* text-align: center; */
+  text-align: justify;
+}
+.lineacu8{
+  border: #f2a008 solid 1.5px;
+  width: 75%;
+  margin: auto;
+}
+/* functional nutrition */
+.linefu{
+  border: #f2a008 solid 1.5px;
+  width: 45%;
+  margin: auto;
+}
+.acup1{
+  font-size: 21px;
+  /* text-align: center; */
+  /* text-align: justify; */
+}
+/* yoga */
+.headga{
+  background-color: #f2a008;
+  color: aliceblue;
+}
+.lineyo{
+  border: #f2a008 solid 1.5px;
+  width: 20%;
+  margin: auto;
+}
+/* guasha */
+.lineg{
+  border: #f2a008 solid 1.5px;
+  width: 7%;
+  margin: auto;
+}
+/* moxibustion */
+.linem{
+  border: #f2a008 solid 1.5px;
+  width: 12%;
+  margin: auto;
+}
+/* cupping */
+.linec{
+  border: #f2a008 solid 1.5px;
+  width: 50%;
+  margin: auto;
+}
+
+.hover{
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.25s;
+  background: rgba(255, 192, 28, 0.2)
+  
+  /* another way to center using postion 
+  top:45px
+  left:75px */
+}
+.overlay:hover{
+  opacity: 1;
+}
+#btnc{
+  background-color: #f2a008;
+}
+.parap{
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  color: #190f04e6;
+}
