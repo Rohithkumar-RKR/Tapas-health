@@ -32,7 +32,7 @@ function ContactUs() {
     <div>
       <section className="container py-3 py-md-3 px-0 mb-3">
         <div className="text-center conhead">
-          <h2 class>Book An Appoinment: +91 99999 99999</h2>
+          <h2 className="">Book An Appoinment: +91 99999 99999</h2>
         </div>
       </section>
       <section className="container py-3 py-md-3 mt-3">
